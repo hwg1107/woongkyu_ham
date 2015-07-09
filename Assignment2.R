@@ -74,16 +74,16 @@ ttest
 # It only says whether it can reject the null hypothesis or not.
 
 # b. The treatment has some effect.
-# True.
+# True. It does not say anything about how effective it is but still it has some effect.
 
 # c. The probability of committing a Type I error is 0.04.
 # False. Type I error is equal to the alpha (significant) so it is 0.05 not 0.04.
 
 # d. The probability of committing a Type II error is 0.04. 
-# False. It depends on Type II error.
+# False. It is not enough to tell Type II error is 0.04.
 
 # e. The null hypothesis would not have been rejected if the significance level was ??=0.01. 
-# True.
+# True. In that case, alpha is less than 0.05 so it will not be rejected.
 
 # 4. (5 pts) The data below are volumes of red blood cells from two individuals.
 # Test the hypothesis (using the Mann-Whitney test) that the red blood cells of person B are 1.5 times the volume of person A. 
